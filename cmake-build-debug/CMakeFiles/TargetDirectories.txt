@@ -1,0 +1,3 @@
+C:/Users/jarico/CLionProjects/SqList/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/jarico/CLionProjects/SqList/cmake-build-debug/CMakeFiles/SqList.dir
+C:/Users/jarico/CLionProjects/SqList/cmake-build-debug/CMakeFiles/edit_cache.dir
