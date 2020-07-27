@@ -153,17 +153,17 @@ Status InitList(SqList *L) {
 }
 
 Status ListEmpty(SqList L) {
-    if (L.length == 0)
-        return TRUE;
-    else
-        return FALSE;
+    return L.length == 0;
 }
 
 Status ClearList(SqList *L) {
+    if (L->length == 0)
+        return TRUE;
     for (int i = 0; i < L->length; i++) {
         L->data = 0;
     }
     L->length = 0;
+    return TRUE;
 }
 
 Status LocateElem(SqList L, ElemType e) {
